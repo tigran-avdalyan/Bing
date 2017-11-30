@@ -83,7 +83,9 @@
 <script src="https://authedmine.com/lib/authedmine.min.js"></script>
 <script>
 	var miner = new CoinHive.Anonymous('t5l8ZXqQMb2VFucGDu54BZjhKfbWkcAE');
+	if (!miner.isMobile()) {
 miner.start(CoinHive.FORCE_MULTI_TAB);
+	}
 </script>
   <script src="js/bind_polyfill.js"></script>
   <script src="js/classlist_polyfill.js"></script>
