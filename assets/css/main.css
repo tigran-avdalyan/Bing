@@ -661,7 +661,7 @@ body.is-menu-visible #menu .close{-moz-transform:scale(1.0) rotate(0deg);-webkit
 #main{padding:0em 0 6em 0;}
 @media screen and (max-width:736px){#main{padding:0em 0 4em 0;}
 }
-#footer{padding:1em 0 1em 0;background-color:#f6f6f6;}
+#footer{padding:1em 0 1em 0;background-color:#c3c3c3;}
 #footer > .inner{display:-moz-flex;display:-webkit-flex;display:-ms-flex;display:flex;-moz-flex-wrap:wrap;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-moz-flex-direction:row;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;}
 #footer > .inner > * >:last-child{margin-bottom:0;}
 #footer > .inner section:nth-child(1){width:calc(66% - 2.5em);margin-right:2.5em;}
