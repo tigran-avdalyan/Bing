@@ -345,7 +345,7 @@
 body{-ms-overflow-style:scrollbar;}
 @media screen and (max-width:480px){html, body{min-width:320px;}
 }
-body{background:#ffffff;}
+body{background:#c3c3c3;}
 body.is-loading *, body.is-loading *:before, body.is-loading *:after{-moz-animation:none !important;-webkit-animation:none !important;-ms-animation:none !important;animation:none !important;-moz-transition:none !important;-webkit-transition:none !important;-ms-transition:none !important;transition:none !important;}
 body, input, select, textarea{color:#585858;font-family:Arial,"Source Sans Pro", Helvetica, sans-serif;font-size:16pt;font-weight:300;line-height:1.75;}
 @media screen and (max-width:1680px){body, input, select, textarea{font-size:14pt;}
