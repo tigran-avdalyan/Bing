@@ -366,14 +366,14 @@ h1 a{color:inherit;}
 h2, h3, h4, h5, h6{font-weight:900;line-height:1.5;margin:0 0 0.1em 0;text-transform:uppercase;letter-spacing:0.25em;text-align:center;}
 h2 a, h3 a, h4 a, h5 a, h6 a{color:inherit;}
 h2{font-size:1em;}
-h3{font-size:1em;}
+h3{font-size:2em;color:#2669a8ad}
 h4{font-size:0.8em;}
 h5{font-size:0.8em;}
 h6{font-size:0.8em;}
 @media screen and (max-width:980px){h1 br, h2 br, h3 br, h4 br, h5 br, h6 br{display:none;}
 }
 @media screen and (max-width:736px){h2{font-size:1em;}
-h3{font-size:0.8em;}
+h3{font-size:1.5em;}
 }
 sub{font-size:0.8em;position:relative;top:0.5em;}
 sup{font-size:0.8em;position:relative;top:-0.5em;}
@@ -601,13 +601,13 @@ body:not(.is-touch) .tiles article:hover .content{max-height:15em;opacity:1;}
 body.is-loading .tiles article{-moz-transform:scale(0.9);-webkit-transform:scale(0.9);-ms-transform:scale(0.9);transform:scale(0.9);opacity:0;}
 body.is-touch .tiles article .content{max-height:15em;opacity:1;}
 @media screen and (max-width:1280px){.tiles{margin:-1.25em 0 0 -1.25em;}
-.tiles article{width:calc(33.33333% - 1.25em);margin:1.25em 0 0 1.25em;}
+.tiles article{width:calc(33.33333% - 1.25em);margin:5em 0 0 1.25em;}
 }
 @media screen and (max-width:980px){.tiles{margin:-2.5em 0 0 -2.5em;}
-.tiles article{width:calc(50% - 2.5em);margin:2.5em 0 0 2.5em;}
+.tiles article{width:calc(50% - 2.5em);margin:5em 0 0 2.5em;}
 }
 @media screen and (max-width:736px){.tiles{margin:-1.25em 0 0 -1.25em;}
-.tiles article{width:calc(50% - 1.25em);margin:1.25em 0 0 1.25em;}
+.tiles article{width:calc(50% - 1.25em);margin:3em 0 0 1.25em;}
 .tiles article:hover > .image{-moz-transform:scale(1.0);-webkit-transform:scale(1.0);-ms-transform:scale(1.0);transform:scale(1.0);}
 }
 @media screen and (max-width:480px){.tiles{margin:0;}
@@ -696,6 +696,6 @@ h1.logo_text {font-size: 2.75em;
     margin: 0 0 0 0;
     letter-spacing: -0.035em;
 }
-.style1,.style3,.style4,.style5,.style6,.style7,.style8,.style9,.style10,.style12,.style13,.style14,.style15,.style16,.style17{
+.style1,.style3,.style4,.style5,.style6,.style7,.style8,.style9,.style10,.style11,.style12,.style13,.style14,.style15,.style16,.style17,.style18{
    display: none;
 }
