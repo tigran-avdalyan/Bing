@@ -1,5 +1,7 @@
+User-Agent: Mediapartners-Google
+Allow: / Disallow: 
 User-Agent: *
-Disallow: 
-Allow: 
+Disallow: /search
+Allow: /
 
 Sitemap: https://bing.am/sitemap.xml
